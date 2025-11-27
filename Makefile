@@ -2,7 +2,7 @@
 
 # Application name
 APP_NAME := gotemp
-MAIN_PATH := ./cmd/api
+MAIN_PATH := .
 
 # Go commands
 GOCMD := go

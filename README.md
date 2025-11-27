@@ -53,6 +53,9 @@ cd gotemp
 go mod tidy
 
 # Run the application
+go run main.go
+
+# Or run from cmd/api
 go run ./cmd/api
 
 # Or use make
