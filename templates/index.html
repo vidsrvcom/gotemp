@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Web Template</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Go Web Template</h1>
+            <p class="subtitle">A production-ready Go web application template</p>
+        </header>
+
+        <main>
+            <section class="features">
+                <div class="feature-card">
+                    <h3>📦 Clean Architecture</h3>
+                    <p>Organized with handlers, services, and repositories following best practices</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔧 RESTful API</h3>
+                    <p>Well-structured API endpoints with JSON responses and proper error handling</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✅ Testing</h3>
+                    <p>Comprehensive unit tests with table-driven test patterns</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔒 Middleware</h3>
+                    <p>Logging, recovery, CORS, and content-type middleware included</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚙️ Configuration</h3>
+                    <p>Environment-based configuration with validation</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🐳 Docker Ready</h3>
+                    <p>Multi-stage Dockerfile for optimized container builds</p>
+                </div>
+            </section>
+
+            <section class="api-section">
+                <h2>API Endpoints</h2>
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/health</span>
+                    <span class="description">Health check endpoint</span>
+                </div>
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/api/users</span>
+                    <span class="description">List all users</span>
+                </div>
+                <div class="endpoint">
+                    <span class="method post">POST</span>
+                    <span class="path">/api/users</span>
+                    <span class="description">Create a new user</span>
+                </div>
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/api/users/{id}</span>
+                    <span class="description">Get user by ID</span>
+                </div>
+                <div class="endpoint">
+                    <span class="method put">PUT</span>
+                    <span class="path">/api/users/{id}</span>
+                    <span class="description">Update user</span>
+                </div>
+                <div class="endpoint">
+                    <span class="method delete">DELETE</span>
+                    <span class="path">/api/users/{id}</span>
+                    <span class="description">Delete user</span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ using Go</p>
+        </footer>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
